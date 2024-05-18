@@ -1,0 +1,9 @@
+name: CustomBucketPlugin
+version: '${project.version}'
+main: me.rimon.custombucketplugin.CustomBucketPlugin
+api-version: '1.20'
+
+commands:
+  givebucket:
+    description: Gives the player a custom water bucket
+    usage: /givebucket
